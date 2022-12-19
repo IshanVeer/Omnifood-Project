@@ -1,0 +1,79 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
+/* LANDSCAPE TABLET NAVIGATION */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .nav-bar {
+    padding: 0 2.4rem;
+  }
+  .navigation-list {
+    gap: 2.4rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .heading-seconday {
+    font-size: 3.2rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .grid {
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+  }
+}
+
+/* TABLET NAVIGATION */
+
+@media (max-width: 60.0625em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-content,
+  .hero-img {
+    text-align: center;
+  }
+  .heading-primary,
+  .hero-description {
+    padding: 0 3.6rem;
+  }
+
+  .hero-img img {
+    width: 60%;
+  }
+  .delivered-meals {
+    justify-content: center;
+  }
+  .logo-image {
+    height: 2.4rem;
+  }
+  .meal-text {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .testimonials-section{
+    padding: 0;
+  }
+  .container-testimonials {
+    grid-template-columns: 1fr;
+    
+  }
+  .testimonials-images{
+    grid-template-columns: repeat(6,1fr);
+    gap: 1.6rem;
+  }
+  .cta{
+    grid-template-columns: 3fr 2fr;
+  }
+  
+  
+}
